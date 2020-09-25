@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  min-height: 40vw;
+}
+
+.map-title {
+  margin: 80px 0 40px;
+}
+.destination-bio {
+  margin: auto;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  justify-content: space-around;
+  display: flexbox;
+  background-color: rgb(37, 37, 37);
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {
+  line-height: 60px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.nav-links li {
+  color: white;
+  transition: all ease 0.3s;
+}
+
+.nav-links li:hover {
+  transform: scale(1.1);
+}
+
+ul {
+  list-style: none;
+}
+
+.form {
+  margin: auto;
+  width: 40vw;
+  max-width: 600px;
+}
+
+.homePage-hero {
+  background-color: rgb(241, 241, 241);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+}
+
+.homePage-hero-title {
+  margin: 0;
+  color: black;
+  margin-top: 15vh;
+  grid-row: 2;
+  font-size: 12vw;
+  text-align: center;
+}
+
+.homePage-map {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 200px 1fr;
+}
+.homePage-map ul {
+  z-index: 1;
+}
+
+.page-title {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 10vh;
+  color: rgb(165, 165, 165);
+}
+.nav-tabs {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  width: 50%;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.nav-tabs li {
+  color: rgb(110, 0, 0);
+  transition: all ease 0.3s;
+}
+
+.nav-tabs li:hover {
+  transform: scale(1.1);
+}
+
+.destination-info {
+  width: 70%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.destination-bio {
+  width: 70%;
+  margin: auto;
+  max-width: 600px;
+}
+
+.resort-result {
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 4px 5px -1px rgba(0, 0, 0, 0.28);
+  border-radius: 5px;
+}
+
+.fav-btn {
+  background-color: red;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  visibility: hidden;
+}
